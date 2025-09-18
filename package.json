@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-     "test": "echo \"Running basic test...\" && exit 0",
+    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Yogesh-sa1n1/NodeSetupL-3/issues"
   },
-  "homepage": "https://github.com/Yogesh-sa1n1/NodeSetupL-3#readme"
+  "homepage": "https://github.com/Yogesh-sa1n1/NodeSetupL-3#readme",
+  "dependencies": {
+    "jest": "^30.1.3"
+  }
 }
